@@ -56,7 +56,7 @@ python src/main.py --state <state_code> --output <output_directory> [--exclude <
 
 ## Parameters
 
-- `--state <state_code>`: The state admin code for which to collect weather data (e.g., '13' for Sachsen). If not provided, data for all states will be fetched.
+- `--state <state_code>`: (Optional) The state admin code for which to collect weather data (e.g., '13' for Sachsen). If not provided, data for all states will be fetched.
   - Available state codes:
     - `01`: Baden-Württemberg
     - `02`: Bayern
@@ -74,7 +74,7 @@ python src/main.py --state <state_code> --output <output_directory> [--exclude <
     - `14`: Sachsen-Anhalt
     - `15`: Thüringen
     - `16`: Berlin
-- `--output <output_directory>`: The directory where the output CSV files will be saved.
+- `--output <output_directory>`: (Required) The directory where the output CSV files will be saved.
 - `--exclude <weather_parameters>`: (Optional) A space-separated list of weather parameters to exclude from the data collection. Possible values include `temperature`, `humidity`, `pressure`, etc.
 
 ## Examples
@@ -90,6 +90,7 @@ python src/main.py --state <state_code> --output <output_directory> [--exclude <
     ```sh
     python src/main.py --output ./data --exclude temperature humidity
     ```
+<<<<<<< HEAD
 
 
 ## API Documentations
@@ -116,3 +117,5 @@ As a result, the current implementation only supports fetching current weather d
 In the following steps, I progressively loaded the data, ensuring the format was correct and gradually expanded the functionality until it met the project requirements. I also implemented error handling and tested the functionality thoroughly. Once the logic was complete, I refined the code style, added comments and docstrings for better readability, and removed redundant code from earlier development attempts.
 
 Finally, I prepared the project for deployment by creating a comprehensive README.md and a requirements.txt file to ensure easy installation and execution.
+=======
+>>>>>>> 5f186f9ced6a66b82506f216d8cf79578b81534f
