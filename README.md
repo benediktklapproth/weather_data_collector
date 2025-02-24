@@ -117,5 +117,3 @@ As a result, the current implementation only supports fetching current weather d
 In the following steps, I progressively loaded the data, ensuring the format was correct and gradually expanded the functionality until it met the project requirements. I also implemented error handling and tested the functionality thoroughly. Once the logic was complete, I refined the code style, added comments and docstrings for better readability, and removed redundant code from earlier development attempts.
 
 Finally, I prepared the project for deployment by creating a comprehensive README.md and a requirements.txt file to ensure easy installation and execution.
-=======
->>>>>>> 5f186f9ced6a66b82506f216d8cf79578b81534f
