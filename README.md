@@ -16,7 +16,7 @@ A Python tool for dynamically collecting weather data and generating hourly time
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/weather_data_collector.git
+    git clone https://github.com/benediktklapproth/weather_data_collector.git
     cd weather_data_collector
     ```
 
