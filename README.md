@@ -56,7 +56,7 @@ python src/main.py --state <state_code> --output <output_directory> [--exclude <
 
 ## Parameters
 
-- `--state <state_code>`: The state admin code for which to collect weather data (e.g., '13' for Sachsen). If not provided, data for all states will be fetched.
+- `--state <state_code>`: (Optional) The state admin code for which to collect weather data (e.g., '13' for Sachsen). If not provided, data for all states will be fetched.
   - Available state codes:
     - `01`: Baden-Württemberg
     - `02`: Bayern
@@ -74,7 +74,7 @@ python src/main.py --state <state_code> --output <output_directory> [--exclude <
     - `14`: Sachsen-Anhalt
     - `15`: Thüringen
     - `16`: Berlin
-- `--output <output_directory>`: The directory where the output CSV files will be saved.
+- `--output <output_directory>`: (Required) The directory where the output CSV files will be saved.
 - `--exclude <weather_parameters>`: (Optional) A space-separated list of weather parameters to exclude from the data collection. Possible values include `temperature`, `humidity`, `pressure`, etc.
 
 ## Examples
