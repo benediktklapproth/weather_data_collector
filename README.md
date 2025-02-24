@@ -8,7 +8,7 @@ A Python tool for dynamically collecting weather data and generating hourly time
 - [Usage](#usage)
 - [Parameters](#parameters)
 - [Examples](#examples)
-- [API Documentations](#apidocumentations)
+- [API Documentations](#api-documentations)
 - [Approach and Development Process](#-approach-and-development-process)
 
 ## Installation
