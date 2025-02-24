@@ -8,6 +8,8 @@ A Python tool for dynamically collecting weather data and generating hourly time
 - [Usage](#usage)
 - [Parameters](#parameters)
 - [Examples](#examples)
+- [API Documentations](#apidocumentations)
+- [Approach and Development Process](#Approachanddevelopmentprocess)
 
 ## Installation
 
@@ -90,10 +92,8 @@ python src/main.py --state <state_code> --output <output_directory> [--exclude <
     ```sh
     python src/main.py --output ./data --exclude temperature humidity
     ```
-<<<<<<< HEAD
 
-
-## API Documentations
+## API Documentation
 - https://www.geonames.org/
     https://www.geonames.org/export/ws-overview.html
     https://www.geonames.org/export/codes.html
